@@ -6,7 +6,7 @@ from diffusers import StableDiffusionPipeline
 def dummy(images, **kwargs):
     return images, False
 
-model_id = "johnslegers/stable-diffusion-1-5"
+model_id = "johnslegers/stable-diffusion-v1-5"
 
 AUTH_TOKEN = os.environ.get('AUTH_TOKEN')
 if not AUTH_TOKEN:
